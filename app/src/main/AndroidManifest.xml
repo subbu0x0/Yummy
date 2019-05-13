@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.umlproject.yummy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Deliver"></activity>
+        <activity android:name=".DeliverOrder" />
+        <activity android:name=".SelectedOrders" />
+        <activity android:name=".OrdersList" />
+        <activity android:name=".Restaurant_act4" />
+        <activity android:name=".OdetailsRes" />
+        <activity android:name=".OrdersRes" />
+        <activity android:name=".ItemsRes" />
+        <activity
+            android:name=".DelHome"
+            android:label="@string/title_activity_del_home" />
+        <activity android:name=".ResHome" />
+        <activity android:name=".LoginRestaurant" />
+        <activity android:name=".RegRestaurant" />
+        <activity android:name=".Restaurant_act2" />
+        <activity android:name=".Restaurant_act1" />
+        <activity android:name=".OrderDetails" />
+        <activity android:name=".OrdersActivity" />
+        <activity android:name=".Retrieve">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Restaurant_act">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ItemList">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CartActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Porder">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
